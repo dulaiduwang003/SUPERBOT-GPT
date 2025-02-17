@@ -1,0 +1,80 @@
+{
+  "id": "custom-waterfalls-flow",
+  "displayName": "瀑布流 灵活配置 简单易用 兼容vue2vue3小程序、H5、app等多端",
+  "version": "1.0.7",
+  "description": "瀑布流，根据内容自动计算进行流式布局，简单参数配置，实现兼容多端及vue2和vue3的瀑布流布局；uv-ui发布https://ext.dcloud.net.cn/plugin?name=uv-ui",
+  "keywords": [
+    "瀑布流",
+    "瀑布流式布局"
+],
+  "repository": "https://gitee.com/my_dear_li_pan/my-uni-modules.git",
+"engines": {
+  },
+  "dcloudext": {
+    "category": [
+        "前端组件",
+        "通用组件"
+    ],
+    "sale": {
+      "regular": {
+        "price": "0.00"
+      },
+      "sourcecode": {
+        "price": "0.00"
+      }
+    },
+    "contact": {
+      "qq": ""
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "无"
+    },
+    "npmurl": ""
+  },
+  "uni_modules": {
+    "dependencies": [],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y"
+      },
+      "client": {
+        "Vue": {
+          "vue2": "y",
+          "vue3": "y"
+        },
+        "App": {
+          "app-vue": "y",
+          "app-nvue": "n"
+        },
+        "H5-mobile": {
+          "Safari": "y",
+          "Android Browser": "y",
+          "微信浏览器(Android)": "y",
+          "QQ浏览器(Android)": "y"
+        },
+        "H5-pc": {
+          "Chrome": "y",
+          "IE": "u",
+          "Edge": "u",
+          "Firefox": "y",
+          "Safari": "u"
+        },
+        "小程序": {
+          "微信": "y",
+          "阿里": "u",
+          "百度": "y",
+          "字节跳动": "y",
+          "QQ": "u"
+        },
+        "快应用": {
+          "华为": "u",
+          "联盟": "u"
+        }
+      }
+    }
+  }
+}

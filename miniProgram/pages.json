@@ -1,0 +1,136 @@
+{
+  "pages": [
+    {
+      "path": "pages/dialogue/dialogue",
+      "style": {
+        "navigationStyle": "custom",
+        "mp-weixin": {
+          "backgroundColorTop": "#161817",
+          "backgroundColorBottom": "#161817"
+        }
+      }
+    },
+
+    {
+      "path": "pages/drawing/drawing",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+
+    {
+      "path": "pages/user/user",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/drawing/view/drawingPreviewView",
+      "style": {
+        "navigationStyle": "custom",
+        "usingComponents": {
+          "xr-start": "../../../wxcomponents/xr-start"
+        }
+      }
+    },
+    {
+      "path": "pages/drawing/view/drawingExecutionView",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/drawing/view/drawingFormView",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/drawing/view/drawingDetailsView",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/setting/setting",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/dialogue/view/chatTopicView",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "mp-weixin": {
+          "backgroundColorTop": "#161817",
+          "backgroundColorBottom": "#161817"
+        }
+      }
+    },
+    {
+      "path": "pages/dialogue/view/settingView",
+      "style": {
+        "navigationBarTitleText": "偏好设置"
+      }
+    },
+    {
+      "path": "pages/dialogue/view/changeModelView",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/setting/view/userAgreementView",
+      "style": {
+        "navigationBarTitleText": "用户协议",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/setting/view/privacyPolicyView",
+      "style": {
+        "navigationBarTitleText": "隐私政策",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/setting/view/personalInformationView",
+      "style": {
+        "navigationBarTitleText": "个人信息"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "TYPE STARS",
+    "navigationBarBackgroundColor": "#161817",
+    "backgroundColor": "#161817"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "#ffffff",
+    "color": "#7e7e7f",
+    "list": [
+      {
+        "pagePath": "pages/dialogue/dialogue",
+        "iconPath": "static/tabbar/dialogue.png",
+        "selectedIconPath": "static/tabbar/dialogue.png",
+        "text": "CHAT"
+      },
+      {
+        "pagePath": "pages/drawing/drawing",
+        "iconPath": "static/tabbar/drawing.png",
+        "selectedIconPath": "static/tabbar/drawing.png",
+        "text": "DRAWING"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tabbar/itSMine.png",
+        "selectedIconPath": "static/tabbar/itSMine.png",
+        "text": "DASHBOARD"
+      }
+    ],
+    "backgroundColor": "#1d1d1d"
+  },
+  "uniIdRouter": {}
+}

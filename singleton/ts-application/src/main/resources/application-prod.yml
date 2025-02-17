@@ -1,0 +1,64 @@
+spring:
+  data:
+    redis:
+      database: 5
+      host: 127.0.0.1
+      port: 6379
+      password: ''
+  datasource:
+    username: 'type_stars'
+    password: 'pxfSTNSYD2sEtXPC'
+    url: jdbc:mysql://127.0.0.1:3306/type_stars?useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&allowMultiQueries=true&useSSL=true
+
+ali:
+  certified:
+    access-key: '阿里KEY'
+    secret-key: '阿里密钥'
+  oss:
+    endpoint: 'oss-accelerate.aliyuncs.com'
+    bucket-name: 'XXX'
+    domain: 'https://XXX.oss-accelerate.aliyuncs.com'
+
+we-chat:
+  host: https://api.weixin.qq.com
+  app-id: '微信appid'
+  secret: '微信迷药1'
+  template-id: '微信通知模板id'
+
+operation:
+  energy:
+    #  注册
+    registered: 1
+    # 广告赠送
+    ad: 1
+  #  管理员登录
+  auth:
+    account: '2074055628@qq.com'
+    password: 'bdth1212003@2222'
+
+
+chat:
+  token: 'token'
+  server: 'https://openai.newbotai.cn/v1'
+  model-list:
+    - model: 'gpt-4o-2024-11-20'
+      name: 'OA-4o'
+    - model: 'gpt-4o-mini-2024-07-18'
+      name: 'OA-4o-mini'
+    - model: 'gpt-4-32k'
+      name: 'OA-4-32k'
+    - model: 'gpt-3.5-turbo-0301'
+      name: 'OA-3.5-turbo-0301'
+
+
+drawing:
+  #  comfy-ui 服务器地址
+  server: https:/xxxxx.container.x-gpu.com
+  # 允许同时处理的并发数
+  concurrent: 1
+  # 最大提交任务数量
+  submit-task-max: 100
+
+
+server:
+  port: 9000

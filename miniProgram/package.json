@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "lottie-miniprogram": "^1.0.12"
+    }
+}
