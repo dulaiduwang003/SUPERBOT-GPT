@@ -4,7 +4,7 @@
 
 主要实现comfy-ui绘图绘图功能小程序应用，支持自定义工作流，生成视频、图片、3D模型、音频，支持实时展示任务进程、广告主
  
-### 效果预览
+### 效果预览 （vpn预览）
 <img src="./.img/gn/0e39a28b0f14854e506d4b920f1950f.png" style="width: 200px;height: 420px">
 <img src="./.img/gn/5c0434e05382835ac4f43c54feff355.png" style="width: 200px;height: 420px">
 <img src="./.img/gn/5dc8403c70789057189ac2d53af82bc.png" style="width: 200px;height: 420px">
